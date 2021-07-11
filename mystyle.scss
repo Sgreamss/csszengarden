@@ -2,6 +2,13 @@ $primary-color :#ece8e1;
 $link-color:#ff4655;
 body{
     background-color: $primary-color;
+    abbr{
+        text-decoration:none ;
+        color: black;
+    }
+    h3{
+        letter-spacing: 2.5px;
+    }
 }
 
 div{
@@ -10,6 +17,7 @@ div{
             
             text-align: center;
             font-size: 1.1em ;
+            
         }
         h2{
             width: 500px;
@@ -71,6 +79,7 @@ div{
         padding-left: 30px;
         border-left: 1px solid black;
         font-size: 1.1em;
+        
     }
     .design-archives{
         margin-left: 30px;
@@ -106,13 +115,32 @@ div{
         
     }
 }
+footer{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    a:link,a:visited{
+        
+        color: black;
+        padding: 10px 20px;
+        border: 2px solid $link-color;
+        text-decoration: none;
+        text-align:center;
+        margin-right: 30px;
+    }
+    a:hover{
+        color: white;
+        background-color: $link-color;
+    }
+}
 
-a:link{
+a:link,a:visited{
     color: $link-color;
+    text-decoration: none;
 }
-a:visited{
-    color: $link-color;
-}
+
 a:hover{
     color: black;
     

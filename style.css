@@ -1,6 +1,13 @@
 body {
   background-color: #ece8e1;
 }
+body abbr {
+  text-decoration: none;
+  color: black;
+}
+body h3 {
+  letter-spacing: 2.5px;
+}
 
 div header h1 {
   text-align: center;
@@ -95,12 +102,28 @@ div p {
   color: white;
 }
 
-a:link {
-  color: #ff4655;
+footer {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer a:link, footer a:visited {
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid #ff4655;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 30px;
+}
+footer a:hover {
+  color: white;
+  background-color: #ff4655;
 }
 
-a:visited {
+a:link, a:visited {
   color: #ff4655;
+  text-decoration: none;
 }
 
 a:hover {
