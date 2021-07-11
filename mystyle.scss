@@ -1,0 +1,120 @@
+$primary-color :#ece8e1;
+$link-color:#ff4655;
+body{
+    background-color: $primary-color;
+}
+
+div{
+    header{
+        h1{
+            
+            text-align: center;
+            font-size: 1.1em ;
+        }
+        h2{
+            width: 500px;
+            margin: auto;
+            text-align: center;
+            font-size: 2em;
+            margin-top: -10px;
+            border-bottom: 1px solid black;
+            
+        }
+        
+    }
+    p{
+        color: grey;
+    }
+}
+.summary{
+    text-align: center;
+    font-size: 0.9em ;
+    margin-top: -5px;
+}
+.preamble{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 75%;
+    margin: auto;
+    padding-left: 50px;
+    h3{
+        font-size: 2em;
+    }
+    p{
+        margin-left: 30px;
+    }
+    
+}
+.supporting{
+    border-top: 1px solid black;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    .explanation{
+        h3{
+            text-align: center;
+            font-size: 2em;
+        }
+        p{
+            line-height: 1.2;
+        }
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
+.sidebar{
+    width: 75%;
+    margin: auto;
+    .design-selection{
+        margin-left: 30px;
+        padding-left: 30px;
+        border-left: 1px solid black;
+        font-size: 1.1em;
+    }
+    .design-archives{
+        margin-left: 30px;
+        padding-left: 30px;
+        li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 50px;
+        }
+    }
+}
+
+.zen-resources{
+    
+    clear:left;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    ul{
+        li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 50px;
+        }
+    }
+    a:link{
+        color: gray;
+    }
+    a:hover{
+        color: white;
+        
+    }
+}
+
+a:link{
+    color: $link-color;
+}
+a:visited{
+    color: $link-color;
+}
+a:hover{
+    color: black;
+    
+}
+
